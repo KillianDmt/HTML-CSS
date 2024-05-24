@@ -1,0 +1,52 @@
+* {
+    margin : 0;
+    padding : 15px;
+}
+
+body {
+    background: rgb(3,0,59);
+    background: linear-gradient(90deg, rgba(3,0,59,1) 0%, rgba(9,9,121,1) 20%, rgba(143,40,10,1) 100%);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display:block;
+    max-height:500px;
+}
+
+#upperPhase {
+    font-size: 150px;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+#underPhrase{
+    color:antiquewhite;
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+}
+
+@keyframes myAnim {
+    from {background-color: brown;}
+    to {background-color: white;}
+    display:flex;
+    justify-content:center;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    background-color: brown;
+    animation-name: myAnim;
+    animation-duration: 4s;
+}
+  
